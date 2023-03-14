@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project</title>
+  <link rel="stylesheet" href="management.css">
+  <script>
+    function validate(){
+      var name=document.getElementById("name");
+      var assigned=document.getElementById("ass");
+      var start=document.getElementById("start");
+      var end=document.getElementById("end");
+      var prior=document.getElementById("prior");
+      var description=document.getElementById("des");
+
+      if(name.value==""||assigned.value==""||start.value==""||end.value==""||prior.value==""||description.value==""){
+        alert("No blank spaces allowed");
+        return false;
+      }
+      else{
+        return true;
+      }
+
+    }
+  </script>
+</head>
+<body>
+<h1>Project management</h1>
+<form onsubmit=" return validate()" action="customer.html">
+  <br><br>
+  <label for="name">Project name:</label>
+  <input type="text" id="name" placeholder="project name"><br><br>
+  <label for="ass">Assigned to:</label>
+  <select name="" id="ass">
+    <option value="Er">Er Merry peterson</option>
+    <option value="Me">Mary Julian</option>
+  </select><br><br>
+  <label for="start">Start date:</label>
+  <input type="date" id="start"><br><br>
+  <label for="end">End date:</label>
+  <input type="date" id="end"><br><br>
+  <label for="prior">Priority:</label>
+  <input type="radio" id="prior">High
+  <input type="radio" id="prior">Average
+  <input type="radio" id="prior">Low<br><br>
+  <label for="des">Description:</label>
+  <textarea name="" id="des" cols="40" rows="5" placeholder="Description"></textarea><br><br>
+  <input type="submit" value="Submit">
+
+
+</form>
+
+</body>
+</html>

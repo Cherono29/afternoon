@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form2</title>
+  <style>
+    .myform{
+      background-color: #ad4455;
+      padding: 200px;
+      border: #ad4455;
+    }
+    label{
+      width: 100px;
+      float: left;
+    }
+    .FORM{
+      background-color: pink;
+      border: lightpink;
+    }
+
+  </style>
+</head>
+<body>
+<div class="myform">
+<form>
+
+  <fieldset>
+    <div class="FORM">
+    <label for="nm">Name:</label>
+    <input type="text" id="nm" placeholder="your name"><br><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="your email"><br><br>
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd"><br><br>
+    <label for="gender">Gender:</label>
+    Male:<input type="radio" id="male">
+    Female:<input type="radio" id="female">
+    Other:<input type="radio" id="other"><br><br>
+
+    <label for="language"  >Language</label>
+    <select name="" id="language">
+      <option value="French">French</option>
+      <option value="English">English</option>
+      <option value="Swahili">Swahili</option>
+      <option value="Italian">Italian</option>
+      <option value="Spanish">Spanish</option>
+    </select><br><br>
+
+    <label for="zip">Zip code:</label>
+    <input type="text" id="zip"><br><br>
+    <label for="about">About:</label>
+    <textarea name="" id="" cols="20" rows="2" placeholder="Write about yourself" ></textarea><br><br>
+    <input type="submit" value="Register">
+    </div>
+  </fieldset>
+
+</form>
+</div>
+</body>
+</html>

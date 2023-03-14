@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="margin-left: 80px;margin-right: 80px">
+<br>
+
+<!----Simple bootstrap form---->
+
+<form action="" class="bg-success p-5 m-5">
+  <legend class="text-center text-uppercase">Registration form</legend>
+  <div class="mb-3 mt-3 form-floating">
+  <input type="text" id="fname" class="form-control" placeholder="First name">
+    <label for="fname" class="form-label">First name</label>
+  </div>
+  <div class="mb-3 form-floating">
+  <input type="text" id="mname" class="form-control" placeholder="Middle name">
+    <label for="mname"  class="form-label">Middle name</label>
+  </div>
+  <div class="mb-3 form-floating">
+  <input type="text" id="sname" class="form-control" placeholder="Surname">
+    <label for="sname" class="form-label">Surname</label>
+  </div>
+  <div class="mb-3 form-floating">
+  <input type="email" id="email" class="form-control" placeholder="Email">
+    <label for="email" class="form-label">Email</label>
+  </div>
+  <div class="mb-3 form-floating">
+  <input type="password" id="pwd" class="form-control" placeholder="Password">
+    <label for="pwd" class="form-label">Password</label>
+  </div>
+  <div class="mb-3">
+  <label for="comments" class="form-label">Comments:</label>
+  <textarea name="" id="comments" cols="10" rows="5" class="form-control"></textarea>
+  </div>
+  <div class="mb-3 >
+    <label for="languages" class="form-label">Programming languages</label>
+    <input type="text" class="form-control" id="language" list="languages">
+    <datalist id="languages">
+      <option value="Python">
+      <option value="Kotlin">
+      <option value="Java">
+      <option value="C++">
+    </datalist>
+  </div>
+  <div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br><br>
+</div>
+
+<!----Inline forms---->
+<form action="" class="bg-info p-3">
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Enter your first name" >
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Enter your last name">
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col">
+        <input type="email" class="form-control" placeholder="Enter your Email">
+    </div>
+    <div class="col">
+      <input type="password" class="form-control" placeholder="Enter your password">
+    </div>
+    </div>
+  <br>
+  <div class="row">
+    <div class="col">
+    <input type="text" class="form-control" placeholder="Zip code">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Postal code">
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Country">
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="City">
+    </div>
+  </div>
+  <br>
+
+</form>
+<br><br>
+
+</body>
+</html>

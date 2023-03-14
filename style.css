@@ -1,0 +1,17 @@
+form{
+    background-color: #ad4455;
+    padding: 50px;
+    margin: 50px;
+}
+label{
+    text-align: left;
+    float: left;
+    width: 150px;
+}
+input{
+    float: left;
+}
+legend{
+    font-weight: bold;
+    font-size: 35px;
+}

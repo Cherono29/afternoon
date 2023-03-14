@@ -1,0 +1,50 @@
+label{
+    width: 150px;
+    float: left;
+    font-weight: bold;
+}
+form{
+    margin-right: 500px;
+    background-color: cadetblue;
+    padding: 20px;
+    margin-left: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px 10px darkgrey;
+}
+body{
+    background-color: powderblue;
+}
+h1{
+    text-align: center;
+    text-decoration: underline 3px black;
+
+}
+input[type=text],[type=date]{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+}
+select{
+    width: 60%;
+    height: 40px;
+    border-radius: 10px;
+}
+input[type=submit]:hover{
+    background-color: grey;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #d8efef;
+    border: 1px solid gray;
+}
+textarea{
+    border-radius: 10px;
+    width: 60%;
+}
+input[type=submit]{
+    background-color: darkslategray;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 1px solid black;
+}

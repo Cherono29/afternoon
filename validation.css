@@ -1,0 +1,36 @@
+
+body{
+    background-color: orange;
+}
+.validate{
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 20px;
+    margin-left: 500px;
+    margin-right: 200px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 5px 5px 50px 50px grey;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: orange;
+    border-radius: 20px;
+    height: 30px;
+}
+input[type=submit]:hover{
+    background-color: darkslategray;
+    color: plum;
+}
+legend{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: darkslategray;
+}
+input[type=text], input[type=email]{
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+

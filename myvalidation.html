@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validate</title>
+  <link rel="stylesheet" href="validation.css">
+    <script>
+        function validate(){
+            var name=document.getElementById("nm");
+            var Subject=document.getElementById("subject");
+            var Phone=document.getElementById("phone");
+            var Email=document.getElementById("email");
+            var message=document.getElementById("message");
+
+            if(name.value==""||Subject.value==""||Phone.value==""||Email.value==""||message.value==""){
+                alert("No blank space allowed");
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="validate">
+<form onsubmit=" return validate()" action="myfile.html">
+<legend>CONTACT US</legend>
+  <br>
+    <input type="text" id="nm" placeholder="Name"><br><br>
+    <input type="text" id="subject" placeholder="Subject"><br><br>
+    <input type="text" id="phone" placeholder="Phone"><br><br>
+    <input type="email" id="email" placeholder="Email"><br><br>
+    <textarea name="" id="message" cols="36" rows="5" placeholder="Message"></textarea><br><br>
+    <input type="submit" value="SUBMIT"><br><br>
+
+</form>
+</div>
+</body>
+</html>

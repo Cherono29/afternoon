@@ -1,0 +1,39 @@
+select{
+    width: 50%;
+    padding: 5px;
+    box-shadow: 2px 2px 5px 5px gray;
+}
+input[type=text],[type=email]{
+    width: 50%;
+    border-radius: 5px;
+    height: 20px;
+    box-shadow: 2px 2px 5px 5px gray;
+}
+form{
+    padding: 100px;
+    background-color: lightcoral;
+    margin: 200px;
+    border: 10px solid darkslategray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px 30px grey;
+}
+label{
+    width: 120px;
+    float: left;
+}
+input[type=submit]:hover{
+    background-color: darkslategray;
+
+}
+body{
+    background-image: url("images/flowers.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+legend{
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 40px;
+    color: lightpink;
+}

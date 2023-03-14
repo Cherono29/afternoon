@@ -1,0 +1,34 @@
+
+label{
+    color: white;
+}
+input[type=text], [type=email]{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+}
+form{
+    background-color: #ad4455;
+    padding: 100px;
+    margin: 300px;
+    border-radius: 20px;
+}
+legend{
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+body{
+    background-image: url("images/flowers.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+input[type=submit]{
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: mistyrose;
+    height: 30px;
+}
